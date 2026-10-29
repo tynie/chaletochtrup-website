@@ -1,0 +1,18 @@
+<!--
+  Vorlage fuer die Seite. Bewusst OHNE Script-Tag: Die chayns.codes-IDE haengt
+  beim Build selbst ein Modul-Script fuer ./index.js an; ein eigener Tag hier
+  wuerde das Bundle zweimal ausfuehren (Seite doppelt gerendert).
+  Der lokale Build (scripts/build.mjs) fuegt den Script-Tag fuer dist/
+  selbst ein.
+-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Chalet Hotel Ochtrup</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

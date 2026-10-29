@@ -1,0 +1,28 @@
+{
+  "name": "chaletochtrup-startseite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Startseiten-Frontend des Chalet Hotel Ochtrup (chayns.codes-Frontend: React, chayns-api, @chayns-components)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "serve": "node scripts/serve.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@chayns-components/core": "5.5.59",
+    "@module-federation/enhanced": "^2.4.0",
+    "chayns-api": "3.6.1",
+    "motion": "^12.4.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.0"
+  }
+}
